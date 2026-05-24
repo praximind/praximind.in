@@ -1,0 +1,46 @@
+# main menu
+[[main]]
+name = "Services"
+url = "/#services"
+weight = 1
+
+[[main]]
+name = "Why Praximind"
+url = "/#why"
+weight = 2
+
+[[main]]
+name = "Contact"
+url = "/contact"
+weight = 3
+
+# footer menu left (Company)
+[[footer_left]]
+name = "About Us"
+url = "/#why"
+
+[[footer_left]]
+name = "Our Services"
+url = "/#services"
+
+[[footer_left]]
+name = "Contact"
+url = "/contact"
+
+# footer menu middle (Services)
+[[footer_middle]]
+name = "AI Consulting"
+url = "/#services"
+
+[[footer_middle]]
+name = "AI Products"
+url = "/#services"
+
+# footer menu right (Legal)
+[[footer_right]]
+name = "Privacy Policy"
+url = "/privacy-policy"
+
+[[footer_right]]
+name = "Terms & Conditions"
+url = "/terms-conditions"

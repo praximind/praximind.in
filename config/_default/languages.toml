@@ -1,0 +1,12 @@
+################################### English language #####################################
+[en]
+languageName = "EN"
+languageCode = "en-US"
+contentDir = "content/english"
+weight = 1
+[en.params]
+########### footer content ##########
+footer_menu_left = "Company"
+footer_menu_middle = "Services"
+footer_menu_right = "Legal"
+footer_content = "Intelligence. Engineered. Building AI solutions that create real business value."

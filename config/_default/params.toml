@@ -1,0 +1,96 @@
+#################### default parameters ################################
+favicon = "images/favicon.png"
+
+# logo
+logo = ""
+logo_width = ""
+logo_webp = false
+logo_text = "Praximind"
+
+# main sections
+mainSections = ["blog"]
+
+# contact form action
+contact_form_action = "mailto:praximind@gmail.com"
+demo_form_action = "#!"
+career_form_action = "#"
+
+# analytics and integrations
+google_tag_manager = ""
+custom_script = ""
+
+# copyright
+theme_copyright = false
+copyright = "© 2026 Praximind Technologies. All rights reserved."
+
+#################### preloader ################################
+[preloader]
+enable = false
+preloader = ""
+
+#################### navigation button ################################
+[navigation_button]
+enable = true
+label = "Get in Touch"
+link = "contact"
+
+#################### crisp chat ################################
+[crisp_chat]
+enable = false
+crisp_website_id = ""
+
+#################### metadata ################################
+[metadata]
+keywords = ["AI Consulting", "AI Products", "Artificial Intelligence", "Machine Learning", "Praximind"]
+description = "Praximind Technologies — We help businesses harness the power of AI through expert consulting and purpose-built AI products."
+author = "Praximind Technologies"
+image = "images/og-image.png"
+
+#################### analytics (all disabled) ################################
+[matomo]
+enable = false
+url = ""
+id = ""
+
+[baidu]
+enable = false
+analytics_id = ""
+
+[plausible]
+enable = false
+domain = ""
+
+[counter]
+enable = false
+username = ""
+
+#################### site verification ################################
+[site_verification]
+google = ""
+bing = ""
+baidu = ""
+facebook = ""
+mastodon = ""
+
+#################### cookies ################################
+[cookies]
+enable = false
+expire_days = 2
+content = "This site uses cookies. By continuing to use this website, you agree to their use."
+button = "I Accept"
+
+#################### social links ################################
+[[social]]
+title = "linkedin"
+icon = "fab fa-linkedin"
+link = "#"
+
+[[social]]
+title = "github"
+icon = "fab fa-github"
+link = "#"
+
+[[social]]
+title = "twitter"
+icon = "fab fa-twitter"
+link = "#"
