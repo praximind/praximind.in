@@ -12,6 +12,11 @@
     </h1>
     <p class="hero-desc reveal d2">{{ .content | markdownify }}</p>
     <div class="hero-ctas reveal d3">
+      {{ if .button_vision.enable }}
+      {{ with .button_vision }}
+      <a href="{{ .link | safeURL }}" class="btn btn-ghost">{{ .label }}</a>
+      {{ end }}
+      {{ end }}
       {{ if .button.enable }}
       {{ with .button }}
       <a href="{{ .link | safeURL }}" class="btn">

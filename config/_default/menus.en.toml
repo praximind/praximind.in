@@ -1,1 +1,4 @@
-# main menu — single-page site, no nav links
+[[main]]
+name = "Our Vision in Action"
+url = "/our-vision-in-action/"
+weight = 1

@@ -6,7 +6,11 @@ aliases:
 
 # Banner / Hero Section
 banner:
-  content: "We help businesses harness the power of AI  through expert consulting and purpose-built AI products."
+  content: "To make AI accessible, affordable, and actionable for every business, everywhere."
+  button_vision:
+    enable: true
+    label: "Our Vision"
+    link: "/our-vision-in-action/"
   button:
     enable: true
     label: "Get in Touch"
