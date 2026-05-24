@@ -1,23 +1,9 @@
+{{ $logoText := site.Params.logo_text | default "Praximind" }}
+{{ $showMark := true }}
+{{ if eq (printf "%v" .showMark) "false" }}{{ $showMark = false }}{{ end }}
 {{ $logo := site.Params.logo }}
-{{ $logoWebP := site.Params.logo_webp }}
-{{ $logoWidth := site.Params.logo_width }}
-{{ $logoText := site.Params.logo_text }}
-
 {{ if $logo }}
-  {{ $image := resources.Get $logo }}
-  {{ if $image }}
-    {{ if and $logoWebP (ne $image.MediaType.SubType "svg") }}
-      {{ $imageWebP := $image.Resize (printf "%x webp" $logoWidth) }}
-      <picture>
-        <source srcset="{{ $imageWebP.RelPermalink }}" type="image/webp">
-        <img src="{{ $image.RelPermalink }}" alt="{{ site.Title }}" width="{{ $logoWidth }}" style="max-width: {{ $logoWidth }};">
-      </picture>
-    {{ else }}
-      <img src="{{ $image.RelPermalink }}" alt="{{ site.Title }}" width="{{ $logoWidth }}" style="max-width: {{ $logoWidth }};">
-    {{ end }}
-  {{ else }}
-    <img src="{{ $logo | relURL }}" alt="{{ site.Title }}" width="{{ $logoWidth }}" style="max-width: {{ $logoWidth }};">
-  {{ end }}
+  {{ partial "image.html" (dict "Src" $logo "Alt" $logoText "Class" "") }}
 {{ else }}
-  <span class="h5">{{ $logoText }}</span>
+  {{- $logoText -}}{{ if $showMark }} Technologies{{ end -}}
 {{ end }}

@@ -10,7 +10,8 @@ logo_text = "Praximind"
 # main sections
 mainSections = ["blog"]
 
-# contact form action
+# contact
+contact_email = "praximind@gmail.com"
 contact_form_action = "mailto:praximind@gmail.com"
 demo_form_action = "#!"
 career_form_action = "#"
@@ -32,7 +33,7 @@ preloader = ""
 [navigation_button]
 enable = true
 label = "Get in Touch"
-link = "contact"
+link = "#contact"
 
 #################### crisp chat ################################
 [crisp_chat]
@@ -79,18 +80,3 @@ expire_days = 2
 content = "This site uses cookies. By continuing to use this website, you agree to their use."
 button = "I Accept"
 
-#################### social links ################################
-[[social]]
-title = "linkedin"
-icon = "fab fa-linkedin"
-link = "#"
-
-[[social]]
-title = "github"
-icon = "fab fa-github"
-link = "#"
-
-[[social]]
-title = "twitter"
-icon = "fab fa-twitter"
-link = "#"

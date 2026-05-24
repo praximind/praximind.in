@@ -28,6 +28,7 @@ target = "assets"
 [[module.mounts]]
 source = "hugo_stats.json"
 target = "assets/watching/hugo_stats.json"
+disableWatch = true
 
 ############################# Build ##############################
 [build]
@@ -116,3 +117,5 @@ link = "plugins/cookie.js"
 link = "plugins/lazy-loader.js"
 [[params.plugins.js]]
 link = "js/tab.js"
+[[params.plugins.js]]
+link = "js/praximind.js"
