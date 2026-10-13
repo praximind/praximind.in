@@ -23,5 +23,10 @@
     "prettier-plugin-go-template": "0.0.15",
     "tailwindcss": "^4.3.3"
   },
-  "private": true
+  "private": true,
+  "overrides": {
+    "@tailwindcss/typography": {
+      "postcss-selector-parser": "^7.1.6"
+    }
+  }
 }
