@@ -1,5 +1,6 @@
 ---
 title: "Our Vision in Action"
+meta_title: "Our Vision in Action · Praximind Labs"
 description: "To make AI accessible, affordable, and actionable for every business, everywhere."
 ---
 

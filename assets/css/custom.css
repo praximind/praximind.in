@@ -1,5 +1,5 @@
 /* ============================================================
-   Praximind Technologies — Reference design system
+   Praximind Labs — Reference design system
    Ported from PraxiMind-Website.zip
    ============================================================ */
 
@@ -636,4 +636,19 @@ main {
   padding: 0.1em 0.2em;
   border-radius: 3px;
   text-decoration: none;
+}
+
+.footer-legal {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 4px;
+  text-align: right;
+}
+
+@media (max-width: 640px) {
+  .footer-legal {
+    align-items: flex-start;
+    text-align: left;
+  }
 }

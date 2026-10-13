@@ -1,5 +1,5 @@
 <meta charset="utf-8">
-<title>{{.Title | default site.Title}}</title>
+<!-- <title> comes from basic-seo.html below -->
 
 <!-- responsive meta -->
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
@@ -17,6 +17,22 @@
 
 <!-- opengraph and twitter card -->
 {{ partial "basic-seo.html" . }}
+
+<!-- organization structured data -->
+{{ if .IsHome }}
+{{ $org := dict
+  "@context" "https://schema.org"
+  "@type" "Organization"
+  "name" site.Params.logo_text
+  "legalName" site.Params.legal_name
+  "url" site.BaseURL
+  "logo" (absURL site.Params.favicon)
+  "email" site.Params.contact_email
+  "foundingDate" site.Params.founding_date
+  "identifier" (dict "@type" "PropertyValue" "propertyID" "CIN" "value" site.Params.cin)
+}}
+<script type="application/ld+json">{{ $org | jsonify | safeJS }}</script>
+{{ end }}
 
 <!-- custom script -->
 {{ partialCached "custom-script.html" . }}

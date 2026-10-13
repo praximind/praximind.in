@@ -5,7 +5,7 @@ favicon = "images/favicon.png"
 logo = ""
 logo_width = ""
 logo_webp = false
-logo_text = "Praximind"
+logo_text = "Praximind Labs"
 
 # main sections
 mainSections = ["blog"]
@@ -22,7 +22,12 @@ custom_script = ""
 
 # copyright
 theme_copyright = false
-copyright = "© 2026 Praximind Technologies. All rights reserved."
+copyright = "© 2026 Praximind Labs (OPC) Private Limited. All rights reserved."
+
+# company registration (Certificate of Incorporation, MCA, 16 June 2026)
+legal_name = "Praximind Labs (OPC) Private Limited"
+cin = "U62010TN2026OPC194198"
+founding_date = "2026-06-16"
 
 #################### preloader ################################
 [preloader]
@@ -33,7 +38,7 @@ preloader = ""
 [navigation_button]
 enable = true
 label = "Get in Touch"
-link = "#contact"
+link = "/#contact"
 
 #################### crisp chat ################################
 [crisp_chat]
@@ -42,9 +47,9 @@ crisp_website_id = ""
 
 #################### metadata ################################
 [metadata]
-keywords = ["AI Consulting", "AI Products", "Artificial Intelligence", "Machine Learning", "Praximind"]
-description = "Praximind Technologies — We help businesses harness the power of AI through expert consulting and purpose-built AI products."
-author = "Praximind Technologies"
+keywords = ["AI Consulting", "AI Products", "Artificial Intelligence", "Machine Learning", "Praximind", "Praximind Labs"]
+description = "Praximind Labs — We help businesses harness the power of AI through expert consulting and purpose-built AI products."
+author = "Praximind Labs"
 image = "images/og-image.png"
 
 #################### analytics (all disabled) ################################

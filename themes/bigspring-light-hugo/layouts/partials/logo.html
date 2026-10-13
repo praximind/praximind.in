@@ -1,9 +1,7 @@
-{{ $logoText := site.Params.logo_text | default "Praximind" }}
-{{ $showMark := true }}
-{{ if eq (printf "%v" .showMark) "false" }}{{ $showMark = false }}{{ end }}
+{{ $logoText := site.Params.logo_text | default "Praximind Labs" }}
 {{ $logo := site.Params.logo }}
 {{ if $logo }}
   {{ partial "image.html" (dict "Src" $logo "Alt" $logoText "Class" "") }}
 {{ else }}
-  {{- $logoText -}}{{ if $showMark }} Technologies{{ end -}}
+  {{- $logoText -}}
 {{ end }}

@@ -1,7 +1,7 @@
 <nav class="nav" id="nav">
   <div class="container nav-inner">
-    <a href="#top" class="brand">
-      {{ site.Params.logo_text | default "Praximind" }} Technologies
+    <a href="{{ if .IsHome }}#top{{ else }}{{ "/" | relLangURL }}{{ end }}" class="brand">
+      {{ site.Params.logo_text | default "Praximind Labs" }}
     </a>
     {{ if site.Params.navigation_button.enable }}
     {{ with site.Params.navigation_button }}
