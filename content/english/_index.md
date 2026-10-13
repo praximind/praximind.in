@@ -62,5 +62,4 @@ contact:
   eyebrow: "Get in touch"
   content: "Have a project in mind, or wondering whether AI fits your business? Write to us."
   email: "praximind@gmail.com"
-  note: "We usually reply within one business day."
 ---
