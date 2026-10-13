@@ -1,8 +1,8 @@
 {
-  "name": "bigspring-light",
+  "name": "praximind.in",
   "version": "3.0.0",
   "license": "MIT",
-  "author": "gethugothemes",
+  "author": "Praximind Labs",
   "scripts": {
     "dev": "concurrently \"node scripts/themeGenerator.js --watch\" \"hugo server\"",
     "build": "node scripts/themeGenerator.js && hugo --gc --minify --templateMetrics --templateMetricsHints --forceSyncStatic",
@@ -22,5 +22,6 @@
     "prettier": "^3.3.3",
     "prettier-plugin-go-template": "0.0.15",
     "tailwindcss": "^4.1.1"
-  }
+  },
+  "private": true
 }

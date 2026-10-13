@@ -1,8 +1,6 @@
 ---
 aliases:
   - /contact/
-  - /privacy-policy/
-  - /terms-conditions/
 
 # Banner / Hero Section
 banner:

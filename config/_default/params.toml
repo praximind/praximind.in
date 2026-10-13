@@ -29,21 +29,11 @@ legal_name = "Praximind Labs (OPC) Private Limited"
 cin = "U62010TN2026OPC194198"
 founding_date = "2026-06-16"
 
-#################### preloader ################################
-[preloader]
-enable = false
-preloader = ""
-
 #################### navigation button ################################
 [navigation_button]
 enable = true
 label = "Get in Touch"
 link = "/#contact"
-
-#################### crisp chat ################################
-[crisp_chat]
-enable = false
-crisp_website_id = ""
 
 #################### metadata ################################
 [metadata]
@@ -53,22 +43,9 @@ author = "Praximind Labs"
 image = "images/og-image.png"
 
 #################### analytics (all disabled) ################################
-[matomo]
-enable = false
-url = ""
-id = ""
-
-[baidu]
-enable = false
-analytics_id = ""
-
 [plausible]
 enable = false
 domain = ""
-
-[counter]
-enable = false
-username = ""
 
 #################### site verification ################################
 [site_verification]
@@ -77,11 +54,3 @@ bing = ""
 baidu = ""
 facebook = ""
 mastodon = ""
-
-#################### cookies ################################
-[cookies]
-enable = false
-expire_days = 2
-content = "This site uses cookies. By continuing to use this website, you agree to their use."
-button = "I Accept"
-
