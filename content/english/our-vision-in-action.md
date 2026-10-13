@@ -1,63 +1,43 @@
 ---
 title: "Our Vision in Action"
 meta_title: "Our Vision in Action · Praximind Labs"
-description: "To make AI accessible, affordable, and actionable for every business, everywhere."
+description: "Why we use AI where it genuinely helps, and plain good engineering where it doesn't."
 ---
 
 <mark>To make AI accessible, affordable, and actionable for every business, everywhere.</mark>
 
-We don't just believe in that vision; we engineer it, every single day.
+That is the goal. Here is how we work towards it.
 
 ---
 
-## The AI Era Reality
+## AI is moving fast
 
-<mark>AI is not a future technology</mark>. It's happening now, and it's moving fast.
+New models arrive every few months, and each one does more for less. Things that were out of reach last year are practical today.
 
-Every day brings new models, new capabilities, and new breakthroughs. What seemed impossible last year is production-ready today. Businesses that adapt to this pace will lead. Those that don't will fall behind.
-
----
-
-## The Shift Happening Now
-
-The world's leading AI companies, Google, Anthropic, and OpenAI, are not just building powerful AI. They are <mark>actively making it more efficient and more affordable</mark>.
-
-They are continuously releasing better, more efficient models, delivering higher capability at lower cost. This shift is happening right now, and it changes everything for businesses ready to act.
+Google, Anthropic, OpenAI and others keep making their models cheaper to run. That puts useful AI within reach of small and mid-sized businesses, and not only large ones.
 
 ---
 
-## Praximind's Approach
+## We use AI where it helps
 
-We stay at the cutting edge, <mark>continuously tracking, evaluating, and adopting</mark> the latest AI advancements.
+AI is not always the answer. Before we add it to anything, we ask one question: does this make the product faster, cheaper or easier to use?
 
-Every time a better, more efficient model is released, we move fast to integrate it into our products. Our clients don't pay for yesterday's AI; they <mark>always get the best available, at the best possible cost</mark>.
-
----
-
-## We Build With Purpose
-
-<mark>AI is not always the answer</mark>, and we know that.
-
-We don't build AI products just because AI is trending. We carefully evaluate every product, every feature, and every use case. <mark>We build only when AI genuinely adds value.</mark>
-
-And when we build, we build right, designed to be simple to adopt and ready to evolve with tomorrow's technology.
+If it does, we build it in. If it doesn't, we leave it out and solve the problem with ordinary, well-built software.
 
 ---
 
-## How We Keep Costs Low
+## We keep up so you don't have to
 
-Unlike before, delivering great software <mark>no longer requires a huge workforce.</mark>
-
-AI has changed how products are built. We move faster, build smarter, and do more with less. But speed alone is not our focus; building the right product is.
-
-We pay attention to every corner: every feature, every interaction, every usability detail. That precision is what delivers <mark>real value at a fraction of traditional cost.</mark>
+We follow new models closely and try them on real work. When a better or cheaper one comes out, we move the products we build onto it. You get the benefit without having to track the field yourself.
 
 ---
 
-## Our Commitment
+## Small team, careful work
 
-We are not here to sell AI for the sake of it.
+AI tools let a small team build what used to need a large one. We use that to keep costs down, and we spend the time saved on the details: how each feature works, how it feels to use, and whether it solves the problem it was meant to.
 
-We are here to engineer <mark>intelligence that is accessible, affordable, and built to last</mark>. Every product we build, every solution we deliver, carries that promise.
+---
 
-This is not just our vision. This is how we work, every single day.
+## What you can expect
+
+<mark>Honest advice about where AI fits, software that works, and a price that makes sense.</mark>

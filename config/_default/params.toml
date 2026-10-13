@@ -32,13 +32,13 @@ founding_date = "2026-06-16"
 #################### navigation button ################################
 [navigation_button]
 enable = true
-label = "Get in Touch"
+label = "Get in touch"
 link = "/#contact"
 
 #################### metadata ################################
 [metadata]
-keywords = ["AI Consulting", "AI Products", "Artificial Intelligence", "Machine Learning", "Praximind", "Praximind Labs"]
-description = "Praximind Labs — We help businesses harness the power of AI through expert consulting and purpose-built AI products."
+keywords = ["AI consulting", "software development", "product development", "Praximind", "Praximind Labs"]
+description = "Praximind Labs builds software with AI where it genuinely helps, and plain good engineering where it doesn't. Product development and AI consulting."
 author = "Praximind Labs"
 image = "images/og-image.png"
 

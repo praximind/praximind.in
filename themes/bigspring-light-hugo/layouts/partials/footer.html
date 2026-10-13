@@ -3,6 +3,11 @@
     <a href="{{ "/" | relLangURL }}" class="brand">
       {{ site.Params.logo_text | default "Praximind Labs" }}
     </a>
+    <nav class="footer-links" aria-label="Footer">
+      <a href="{{ "/our-vision-in-action/" | relLangURL }}">Our vision</a>
+      <a href="{{ "/#contact" | relLangURL }}">Contact</a>
+      {{ with site.Params.contact_email }}<a href="mailto:{{ . }}">{{ . }}</a>{{ end }}
+    </nav>
     <div class="footer-legal">
       <div class="footer-copy">{{ site.Params.copyright }}</div>
       {{ with site.Params.cin }}<div class="footer-copy">(One Person Company) · CIN {{ . }}</div>{{ end }}
